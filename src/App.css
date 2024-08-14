@@ -5,15 +5,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Product Sans', sans-serif;
+  font-family: 'Product Sans Medium', sans-serif;
+}
+body{
+  background-color: #fff9f0;
 }
 .font {
   font-family: 'Product Sans', sans-serif;
   font-family: 'Product Sans Thin', sans-serif;
   font-family: 'Product Sans Light', sans-serif;
-  font-family: 'Product Sans Black', sans-serif;
   font-family: "Poppins", sans-serif;
-}
-.medium{
   font-family: 'Product Sans Medium', sans-serif;
+}
+.bold{
+  font-family: 'Product Sans Black', sans-serif;
 }
