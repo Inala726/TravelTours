@@ -2,6 +2,7 @@
 // import { useState } from "react";
 import logo from "../assets/images/bottom-image.png";
 import Navbar from "./Navbar";
+import Package from "./Package";
 
 const Home = () => {
   // const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +25,13 @@ const Home = () => {
           </button>
           <img
             src={logo}
-            className="w-full h-[50%] mb-4 rounded-b-[5%]"
+            className="w-full h-[50%] mb-4"
             alt=""
           />
         </div>
       </div>
       <div className="mt-[30%]">
+        <Package/>
       </div>
     </>
   );
